@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/black"
+    tools:context="com.example.creditcardhelper.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.3"
+            android:layout_height="wrap_content"
+            android:text="@string/text1"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            />
+
+        <EditText
+            android:id="@+id/ettext1"
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edittextstyle"
+            android:drawableTint="@color/colorAccent"
+            android:padding="05dp"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.3"
+            android:layout_height="wrap_content"
+            android:text="@string/text2"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            />
+
+        <EditText
+            android:id="@+id/ettext2"
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:inputType="numberDecimal"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextstyle"
+            android:padding="05dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:weightSum="2"
+        >
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.3"
+            android:layout_height="wrap_content"
+            android:text="@string/text3"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            />
+
+        <EditText
+            android:id="@+id/ettext3"
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:inputType="numberDecimal"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextstyle"
+            android:padding="05dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.3"
+            android:layout_height="wrap_content"
+            android:text="@string/text4"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            />
+        <EditText
+            android:id="@+id/ettext4"
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:inputType="numberDecimal"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextstyle"
+            android:padding="05dp"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.3"
+            android:layout_height="wrap_content"
+            android:text="@string/text5"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            />
+        <EditText
+            android:id="@+id/ettext5"
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:inputType="numberDecimal"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextstyle"
+            android:padding="05dp"
+
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.3"
+            android:layout_height="wrap_content"
+            android:text="@string/text6"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            />
+
+        <EditText
+            android:id="@+id/ettext6"
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:inputType="numberDecimal"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextstyle"
+            android:padding="05dp"
+
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <Button
+            android:id="@+id/btext7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text7"/>
+
+        <Button
+            android:id="@+id/btext8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text8"/>
+
+
+    </LinearLayout>
+</LinearLayout>
+

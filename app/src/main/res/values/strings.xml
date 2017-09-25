@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Credit Card Helper</string>
+
+
+    <string name="text1">Enter Card Balance($)</string>
+    <string name="text2">Enter Yearly Interest Rate(%)</string>
+    <string name="text3">Enter Minimum Payment($)</string>
+    <string name="text4">Final Card Balance($)</string>
+    <string name="text5">Months Remaining</string>
+    <string name="text6">Interest Paid Will Be($)</string>
+    <string name="text7">COMPUTE</string>
+    <string name="text8">CLEAR</string>
+
+</resources>
